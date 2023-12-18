@@ -1,11 +1,11 @@
-# Auto-install-DirectAdmin-with-one-command
+## Install DirectAdmin
 ---
 A tool auto install DirectAdmin with one command
 
 ## HOW TO USE:
 ### 1. Download bash script
 
-`curl -o auto_install.bash https://raw.githubusercontent.com/oktaviran/Auto-install-DirectAdmin-with-one-command/master/auto_install.bash`
+`curl -o auto_install.bash https://raw.githubusercontent.com/hokuya/maro/master/install.bash`
 
 ### 2. Run command 
 + If you want to install DirectAdmin on public (external) IP:
@@ -51,3 +51,6 @@ A tool auto install DirectAdmin with one command
 `sh auto_install.bash client=12345 license=123456 host=local.mbr.dev lan_ip=192.168.1.8 web-server=nginx php-version=7.0 php-mode=php-fpm`
 
 `sh auto_install.bash client=12345 license=123456 host=local.mbr.dev lan_ip=no web-server=nginx php-version=7.0 php-mode=php-fpm php2-version=7.2 php2-mode=php-fpm ftp=pureftpd`
+
+
+## THANK YOU 
